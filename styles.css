@@ -60,3 +60,35 @@ ul {
 }
 .header-image {
 }
+
+.size{
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.title{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  justify-content: center;
+  display: flex;
+  margin: 25px;
+  padding: 25px;;
+ 
+}
+.container {
+flex-direction: row;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 30px
+}
+
+.info{
+  text-align: center;
+}
+.second-section{
+  padding-bottom: 80px;
+}
