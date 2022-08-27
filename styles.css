@@ -127,11 +127,9 @@ gap: 30px
   justify-content: center;
   align-items: center;
   padding: 70px;
-  border: 1px solid red;
 }
 
 .quote2 {
-  border: 1px solid red;
   margin: 0px;
   width: 850px;
   height: 100px;
@@ -139,8 +137,11 @@ gap: 30px
   flex-direction: row;
   background-color: #3882f6;
   color: white; 
-  justify-content: space-between
-  align-item: center
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
   
 }
 
@@ -168,4 +169,14 @@ gap: 30px
   justify-content: flex-start;
   margin: 0;
   display: flex;
+}
+
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 12px;
+  height: 90px; 
+  color: white;
 }
